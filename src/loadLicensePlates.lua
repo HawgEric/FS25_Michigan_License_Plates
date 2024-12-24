@@ -1,8 +1,8 @@
-ohioPlate = {}
+miPlate = {}
 
 modDirectory = g_currentModDirectory
 
-function ohioPlate.loadMapData(self, superFunc, xmlFile, missionInfo, baseDirectory)
+function miPlate.loadMapData(self, superFunc, xmlFile, missionInfo, baseDirectory)
     local path = modDirectory.."xml/licensePlates.xml"
     local plateXML = loadXMLFile("FS25_Michigan_License_Plates", path)
 
@@ -10,4 +10,4 @@ function ohioPlate.loadMapData(self, superFunc, xmlFile, missionInfo, baseDirect
 
     return returnValue
 end
-LicensePlateManager.loadMapData = Utils.overwrittenFunction(LicensePlateManager.loadMapData, ohioPlate.loadMapData)
+LicensePlateManager.loadMapData = Utils.overwrittenFunction(LicensePlateManager.loadMapData, miPlate.loadMapData)
