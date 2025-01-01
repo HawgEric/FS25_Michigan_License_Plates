@@ -6,28 +6,26 @@
 
         <variations>
             <variation> <!-- 3 numbers, 3 letters -->
-                <value node="0|0" posX="-0.106" numerical="true"  alphabetical="false" />
-                <value node="0|1" posX="-0.069" numerical="true"  alphabetical="false" />
-                <value node="0|2" posX="-0.032" numerical="true"  alphabetical="false" />
+                <value node="0|0" posX="-0.106" numerical="false"  alphabetical="true" />
+                <value node="0|1" posX="-0.069" numerical="false"  alphabetical="true" />
+                <value node="0|2" posX="-0.032" numerical="false"  alphabetical="true" />
 
-                <value node="0|3" posX="0.032"  numerical="false" alphabetical="true" nextSection="true"/>
-                <value node="0|4" posX="0.069"  numerical="false" alphabetical="true" />
-                <value node="0|5" posX="0.106"  numerical="false" alphabetical="true" />
+                <value node="0|3" posX="0.032"  numerical="true" alphabetical="false" nextSection="true"/>
+                <value node="0|4" posX="0.069"  numerical="true" alphabetical="false" />
+                <value node="0|5" posX="0.106"  numerical="true" alphabetical="false" />
 
                 <value node="0|6" character="_" locked="true"/>
                 <value node="0|7" character="_" locked="true"/>
                 <value node="0|8" character="_" locked="true"/>
             </variation>
             <variation> <!-- fantasy license plate -->
-                <value node="0|0" posX="-0.123" numerical="true" alphabetical="true" special="true"/>
-                <value node="0|1" posX="-0.092" numerical="true" alphabetical="true" special="true"/>
-                <value node="0|2" posX="-0.061" numerical="true" alphabetical="true" special="true"/>
-                <value node="0|3" posX="-0.030" numerical="true" alphabetical="true" special="true"/>
-                <value node="0|4" posX="0.000"  numerical="true" alphabetical="true" special="true"/>
-                <value node="0|5" posX="0.030"  numerical="true" alphabetical="true" special="true"/>
-                <value node="0|6" posX="0.061"  numerical="true" alphabetical="true" special="true"/>
-                <value node="0|7" posX="0.092"  numerical="true" alphabetical="true" special="true"/>
-                <value node="0|8" posX="0.123"  numerical="true" alphabetical="true" special="true"/>
+                <value node="0|0" posX="-0.092" numerical="true" alphabetical="true" special="false"/>
+                <value node="0|1" posX="-0.061" numerical="true" alphabetical="true" special="false"/>
+                <value node="0|2" posX="-0.030" numerical="true" alphabetical="true" special="false"/>
+                <value node="0|3" posX="0.000"  numerical="true" alphabetical="true" special="false"/>
+                <value node="0|4" posX="0.030"  numerical="true" alphabetical="true" special="false"/>
+                <value node="0|5" posX="0.061"  numerical="true" alphabetical="true" special="false"/>
+                <value node="0|6" posX="0.092"  numerical="true" alphabetical="true" special="false"/>
             </variation>
         </variations>
 

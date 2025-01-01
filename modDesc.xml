@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="92">
     <author>Warthog Mods</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>
         <en>Michigan License Plate</en>
     </title>
@@ -9,6 +9,9 @@
         <en>
             <![CDATA[            
 Replaces the vehicle license plate on a map with Michigan Mackinac Bridge plate style.
+
+Changelog 1.0.1.0
+* Fixed the character patterns to match real life Michigan rules
 ]]>
         </en>
     </description>
